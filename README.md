@@ -3,6 +3,11 @@
 綾急技研制作のJavaScript便利関数詰め合わせセットです。  
 数行程度でかけたり、頻出したりする関数や定数などをまとめています。
 
+## バージョン
+
+- このバージョン : `ver 1.0.0`
+- 最新のリリース : `ver 1.0.0`
+
 ## 使い方
 
 忘れてなければver1.0.0以降はjsDelivrに登録してるはずなので、`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`でいけると思います。  
@@ -21,6 +26,9 @@ Licensed by "AeTOS(Type-06)"
 ![img](license-support.png)
 
 ## 変更履歴
+
+リリースバージョン単位です。  
+ただし、最新のリリースバージョンのあとのβ版は記載します。
 
 ### ver 1.0.0 (2022-01-22)
 
