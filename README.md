@@ -20,7 +20,14 @@ Licensed by "AeTOS(Type-06)"
 
 ## 変更履歴
 
-
+- 関数追加
+    - $AXT.get.serialArray - `[0, 1, 2]`みたいな連番配列の生成。
+    - $AXT.math.distance - 平面上2点間の直線距離を求める。
+    - $AXT.is.object - 値がオブジェクトか判定する。
+    - $AXT.is.primitive - 値がプリミティブか判定する。
+    - $AXT.is.falsy - 値がfalsyか判定する。
+    - $AXT.is.truthy - 値がtruthyか判定する。
+    - $AXT.is.existItem - 指定した値が別に指定した値一覧のいずれかと一致するか判定する。
 
 ### ver 0.9.0 (2022-01-12)
 
