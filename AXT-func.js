@@ -28,7 +28,14 @@ const $AXT = {
          * @param {[Number, Number]} p2 - 2点目の座標(x, y)
          * @returns {Number} - 2点間の距離
          */
-        "distance": (p1, p2) => Math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
+        "distance": (p1, p2) => Math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2),
+        /**
+         * $AXT.math.root - iのj乗根を計算します。jの指定がない場合はiの平方根を計算します。
+         * @param {Number} i
+         * @param {Number} [j=2]
+         * @returns {Number} - iのj乗根
+         */
+        "root": (i, j = 2) => i ** (1 / j)
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
