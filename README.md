@@ -8,6 +8,8 @@
 忘れてなければver1.0.0以降はjsDelivrに登録してるはずなので、`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`でいけると思います。  
 `X`, `Y`, `Z`はバージョンに応じて変更してください。
 
+開発中のbeta版は`ver X.Y.0-beta.N`としてください。Nは1スタートの自然数。
+
 `$AXT`の中に全部詰め込んでます。  
 詳しくはwikiを見ろ！そこにリファレンスは全部書く！
 
