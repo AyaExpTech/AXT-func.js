@@ -20,6 +20,17 @@ Licensed by "AeTOS(Type-06)"
 
 ## 変更履歴
 
+### ver 1.0.0 (2022-01-22)
+
+- minify版の追加
+    - 毎回追加するとは限りません。更新時には変更履歴に記述します。
+    - 概ねセマンティックバージョニングのマイナーバージョン(Y)更新ごとに対応する……と思います。気分です。
+- 関数追加
+    - $AXT.is.nullish - nullish(nullかundefined)か判定する
+    - $AXT.func.sleep - awaitとともに使って指定秒数実行を止める。
+
+### ver 0.9.1 (2022-01-22)
+
 - 関数追加
     - $AXT.get.serialArray - `[0, 1, 2]`みたいな連番配列の生成。
     - $AXT.math.distance - 平面上2点間の直線距離を求める。
