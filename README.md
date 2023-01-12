@@ -5,7 +5,7 @@
 
 ## 使い方
 
-忘れてなければjsDelivrに登録してるはずなので、`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`でいけると思います。  
+忘れてなければver1.0.0以降はjsDelivrに登録してるはずなので、`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`でいけると思います。  
 `X`, `Y`, `Z`はバージョンに応じて変更してください。
 
 `$AXT`の中に全部詰め込んでます。  
@@ -19,6 +19,8 @@ Licensed by "AeTOS(Type-06)"
 ![img](license-support.png)
 
 ## 変更履歴
+
+
 
 ### ver 0.9.0 (2022-01-12)
 
