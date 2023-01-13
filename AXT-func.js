@@ -49,7 +49,14 @@ const $AXT = {
          * @param {Number} c 
          * @returns {Array[Number]} - 実数解すべて。実数解がない場合length=0、重解の場合length=1
          */
-        "quadratic": (a, b, c) => [((b ** 2 - 4 * a * c) >= 0 ? (-b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null), ((b ** 2 - 4 * a * c) > 0 ? (-b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null),].filter(v => v != null)
+        "quadratic": (a, b, c) => [((b ** 2 - 4 * a * c) >= 0 ? (-b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null), ((b ** 2 - 4 * a * c) > 0 ? (-b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null),].filter(v => v != null),
+        /**
+         * $AXT.math.isPrime - 素数か判定する。
+         * ($AXT.is.primeと同じ)
+         * @param {Number} n - 素数判定する値
+         * @returns {Boolean} - 素数ならtrue
+         */
+        "isPrime": n => Math.pow(2, n - 1) % n == 1
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -93,7 +100,14 @@ const $AXT = {
          * @param {Any} i - 判定する値
          * @returns {Boolean}
          */
-        "nullish": i => i == null
+        "nullish": i => i == null,
+        /**
+         * $AXT.is.prime - 素数か判定する。
+         * ($AXT.math.isPrimeと同じ)
+         * @param {Number} n - 素数判定する値
+         * @returns {Boolean} - 素数ならtrue
+         */
+        "prime": n => Math.pow(2, n - 1) % n == 1
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////

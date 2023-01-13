@@ -42,6 +42,12 @@ Licensed by "AeTOS(Type-06)"
 リリースバージョン単位です。  
 ただし、最新のリリースバージョンのあとのβ版は記載します。
 
+### ver 1.1.0-beta.5 (2022-01-13)
+
+- 関数追加
+    - $AXT.is.prime - 素数か判定する。($AXT.math.isPrimeと同じ)
+    - $AXT.math.isPrime - 素数か判定する。($AXT.is.primeと同じ)
+
 ### ver 1.1.0-beta.4 (2022-01-13)
 
 - 関数追加
