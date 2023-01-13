@@ -1,5 +1,7 @@
 # AXT-func.js
 
+<script src="https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@v1.1.0/AXT-func.js"></script>
+
 綾急技研制作のJavaScript便利関数詰め合わせセットです。  
 数行程度でかけたり、頻出したりする関数や定数などをまとめています。
 
