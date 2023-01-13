@@ -35,7 +35,15 @@ const $AXT = {
          * @param {Number} [j=2]
          * @returns {Number} - iのj乗根
          */
-        "root": (i, j = 2) => i ** (1 / j)
+        "root": (i, j = 2) => i ** (1 / j),
+        /**
+         * $AXT.math.quadratic - 二次方程式 ax²+bx+c=0 の実数解をすべて求めます。
+         * @param {Number} a 
+         * @param {Number} b 
+         * @param {Number} c 
+         * @returns {Array[Number]} - 実数解すべて。実数解がない場合length=0、重解の場合length=1
+         */
+        "quadratic": (a, b, c) => [((b ** 2 - 4 * a * c) >= 0 ? (-b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null), ((b ** 2 - 4 * a * c) > 0 ? (-b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null),].filter(v => v != null)
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////

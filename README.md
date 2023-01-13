@@ -5,15 +5,16 @@
 
 ## バージョン
 
-- このバージョン : `ver 1.1.0-beta.2`
+- このバージョン : `ver 1.1.0-beta.3`
 - 最新のリリース : `ver 1.0.1`
 
 ## 使い方
 
-忘れてなければver1.0.0以降はjsDelivrに登録してるはずなので、`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`でいけると思います。  
+jsDelivrで`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`で参照できます。  
 `X`, `Y`, `Z`はバージョンに応じて変更してください。
 
-開発中のbeta版は`ver X.Y.0-beta.N`としてください。Nは1スタートの自然数。
+バージョン表記はセマンティックバージョニングに準拠します。  
+また、開発中のbeta版のバージョン表記は`ver X.Y.0-beta.N`とします。(Nは1スタートの自然数)
 
 `$AXT`の中に全部詰め込んでます。  
 詳しくはwikiを見ろ！そこにリファレンスは全部書く！
@@ -29,6 +30,11 @@ Licensed by "AeTOS(Type-06)"
 
 リリースバージョン単位です。  
 ただし、最新のリリースバージョンのあとのβ版は記載します。
+
+### ver 1.1.0-beta.3 (2022-01-13)
+
+- 関数追加
+    - $AXT.math.quadratic - 二次方程式 ax²+bx+c=0 の実数解をすべて求めます。
 
 ### ver 1.1.0-beta.2 (2022-01-12)
 
