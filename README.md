@@ -3,20 +3,32 @@
 綾急技研制作のJavaScript便利関数詰め合わせセットです。  
 数行程度でかけたり、頻出したりする関数や定数などをまとめています。
 
+なるべくワンライナーで書いているのでパクる参考になるかもしれません。
+
 ## バージョン
 
-- このバージョン : `ver 1.0.1`
-- 最新のリリース : `ver 1.0.1`
+- このバージョン : `ver 1.1.0`
+- 最新のリリース : `ver 1.1.0`
 
 ## 使い方
 
-忘れてなければver1.0.0以降はjsDelivrに登録してるはずなので、`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`でいけると思います。  
+jsDelivrで`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.js`で参照できます。  
 `X`, `Y`, `Z`はバージョンに応じて変更してください。
 
-開発中のbeta版は`ver X.Y.0-beta.N`としてください。Nは1スタートの自然数。
+バージョン表記はセマンティックバージョニングに準拠します。  
+また、開発中のbeta版のバージョン表記は`ver X.Y.0-beta.N`とします。(Nは1スタートの自然数)
 
 `$AXT`の中に全部詰め込んでます。  
 詳しくはwikiを見ろ！そこにリファレンスは全部書く！
+
+また、特定関数のみが欲しい場合はその行の関数をコピペしても良いかもしれません。  
+なるべくワンライナー(1行)で書いているためコピーはしやすいはずです。
+
+## 対応環境
+
+- 最新のGoogle Chromeで検証しています。
+- たぶんSafari, FirefoxとChromiumベースの諸ブラウザ(Edge, Operaなど)でも動きます。動かなかったら教えて下さい。
+- Internet Explorerは死にました。対応するつもりなどありません。Edgeを使え。
 
 ## 規約
 
@@ -29,6 +41,15 @@ Licensed by "AeTOS(Type-06)"
 
 リリースバージョン単位です。  
 ただし、最新のリリースバージョンのあとのβ版は記載します。
+
+### ver 1.1.0 (2022-01-13)
+
+- 関数追加
+    - $AXT.is.prime - 素数か判定する。($AXT.math.isPrimeと同じ)
+    - $AXT.math.isPrime - 素数か判定する。($AXT.is.primeと同じ)
+    - $AXT.get.uniqueArray() - 引数から重複を削除した配列を返します。スプレット構文でArrayのuniqueにも使えます。
+    - $AXT.math.quadratic - 二次方程式 ax²+bx+c=0 の実数解をすべて求めます。
+    - $AXT.math.root - iのj乗根を計算します。jの指定がない場合はiの平方根を計算します。
 
 ### ver 1.0.1 (2022-01-12)
 

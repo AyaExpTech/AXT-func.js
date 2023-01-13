@@ -14,7 +14,13 @@ const $AXT = {
          * @param {Number} x - 連番配列の最大値
          * @returns {Array} - nからxまでのすべての整数を含む連番配列
          */
-        "serialArray": (n, x) => [...Array(x - n + 1).keys()].map(i => i + n)
+        "serialArray": (n, x) => [...Array(x - n + 1).keys()].map(i => i + n),
+        /**
+         * $AXT.get.uniqueArray() - 引数から重複を削除した配列を返します。スプレット構文でArrayのuniqueにも使えます。
+         * @param {...any} a - 値's。
+         * @returns {Array} - 引数から重複を削除したものの配列。
+         */
+        "uniqueArray": (...a) => Array.from(new Set(a))
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -28,7 +34,29 @@ const $AXT = {
          * @param {[Number, Number]} p2 - 2点目の座標(x, y)
          * @returns {Number} - 2点間の距離
          */
-        "distance": (p1, p2) => Math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2)
+        "distance": (p1, p2) => Math.sqrt((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2),
+        /**
+         * $AXT.math.root - iのj乗根を計算します。jの指定がない場合はiの平方根を計算します。
+         * @param {Number} i
+         * @param {Number} [j=2]
+         * @returns {Number} - iのj乗根
+         */
+        "root": (i, j = 2) => i ** (1 / j),
+        /**
+         * $AXT.math.quadratic - 二次方程式 ax²+bx+c=0 の実数解をすべて求めます。
+         * @param {Number} a 
+         * @param {Number} b 
+         * @param {Number} c 
+         * @returns {Array[Number]} - 実数解すべて。実数解がない場合length=0、重解の場合length=1
+         */
+        "quadratic": (a, b, c) => [((b ** 2 - 4 * a * c) >= 0 ? (-b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null), ((b ** 2 - 4 * a * c) > 0 ? (-b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) : null),].filter(v => v != null),
+        /**
+         * $AXT.math.isPrime - 素数か判定する。
+         * ($AXT.is.primeと同じ)
+         * @param {Number} n - 素数判定する値
+         * @returns {Boolean} - 素数ならtrue
+         */
+        "isPrime": n => Math.pow(2, n - 1) % n == 1
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -72,7 +100,14 @@ const $AXT = {
          * @param {Any} i - 判定する値
          * @returns {Boolean}
          */
-        "nullish": i => i == null
+        "nullish": i => i == null,
+        /**
+         * $AXT.is.prime - 素数か判定する。
+         * ($AXT.math.isPrimeと同じ)
+         * @param {Number} n - 素数判定する値
+         * @returns {Boolean} - 素数ならtrue
+         */
+        "prime": n => Math.pow(2, n - 1) % n == 1
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
