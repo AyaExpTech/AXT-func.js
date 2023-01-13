@@ -28,7 +28,7 @@ jsDelivrで`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.j
 
 - 最新のGoogle Chromeで検証しています。
 - たぶんSafari, FirefoxとChromiumベースの諸ブラウザ(Edge, Operaなど)でも動きます。動かなかったら教えて下さい。
-- Internet Explorerは死にました。
+- Internet Explorerは死にました。対応するつもりなどありません。Edgeを使え。
 
 ## 規約
 
