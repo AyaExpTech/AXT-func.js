@@ -14,7 +14,13 @@ const $AXT = {
          * @param {Number} x - 連番配列の最大値
          * @returns {Array} - nからxまでのすべての整数を含む連番配列
          */
-        "serialArray": (n, x) => [...Array(x - n + 1).keys()].map(i => i + n)
+        "serialArray": (n, x) => [...Array(x - n + 1).keys()].map(i => i + n),
+        /**
+         * $AXT.get.uniqueArray() - 引数から重複を削除した配列を返します。スプレット構文でArrayのuniqueにも使えます。
+         * @param {...any} a - 値's。
+         * @returns {Array} - 引数から重複を削除したものの配列。
+         */
+        "uniqueArray": (...a) => Array.from(new Set(a))
     },
 
     //////////////////////////////////////////////////////////////////////////////////////////////////////////
