@@ -86,4 +86,4 @@ Licensed by "AeTOS(Type-06)"
 
 - リポジトリを作成
 
-<script src="https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@v1.1.0/AXT-func.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@v1.2.0/AXT-func.js"></script>
