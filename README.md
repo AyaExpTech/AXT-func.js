@@ -31,12 +31,12 @@ jsDelivrで`https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@vX.Y.Z/AXT-func.j
 - たぶんSafari, FirefoxとChromiumベースの諸ブラウザ(Edge, Operaなど)でも動きます。動かなかったら教えて下さい。
 - Internet Explorerは死にました。対応するつもりなどありません。Edgeを使え。
 
-## 規約
+## 利用規約
 
-Author : 綾急技研 (AyaExpTech)   
-Licensed by "AeTOS(Type-06)"
+Author : AyaExpTech  
+Licensed by "AeTOS for Everyone"
 
-![img](license-support.png)
+> https://axtech.dev/license/
 
 ## 変更履歴
 
