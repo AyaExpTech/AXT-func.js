@@ -63,4 +63,4 @@ Licensed by "AeTOS for Everyone"
 - 関数追加
     - `$AXT.copyToClipboard(s)` - 任意の文字列をクリップボードにコピーする。
 
-<script src="https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js@v1.2.0/AXT-func.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/AyaExpTech/AXT-func.js/AXT-func.js"></script>
