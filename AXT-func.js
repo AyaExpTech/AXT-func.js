@@ -25,5 +25,7 @@ const $AXT = {
     "isExistItem": (f, ...i) => i.includes(f),
     "sleep": s => new Promise(resolve => setTimeout(resolve, 1000 * s)),
     /* v2.0.0追加 */
-    "copyToClipboard": s => navigator.clipboard.writeText(s)
+    "copyToClipboard": s => navigator.clipboard.writeText(s),
+    /* v2.1.0追加 */
+    "copyObj": o => JSON.parse(JSON.stringify(o))
 };
